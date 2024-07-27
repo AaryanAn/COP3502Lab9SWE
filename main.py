@@ -3,7 +3,7 @@ def main():
         print('Menu')
         print('-------------')
         print('1. Encode\n2. Decode\n3. Quit')
-        userOption = input('\nPlease enter an option: ')
+        userOption = int(input('\nPlease enter an option: '))
         if userOption == 1:
             encodePass = input("Please enter your password to encode: ")
             encode()
